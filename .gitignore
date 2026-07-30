@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Temporários
+*.tmp
+*~
+node_modules/
+*.timestamp-*
+
+# Materiais antigos e planilhas com dados de alunos
+antigos/
+PE - *.pdf
+
+# Defensivo: o material do professor vive em OUTRO repositório
+# (g1126-analise-projeto-desenvolvimento-agil-guia-dos-professores).
+# Se alguma cópia aparecer aqui por engano, não será versionada.
+material-professor/
+solucao-referencia/
+refatoracao-postgres/
+provas/
+caso.md
+acompanhamento/
+grupos.json
+
+# Regras de IDE/MCP (não distribuir)
+.github/instructions/
+
+# arquivos de bloqueio do Office (PowerPoint aberto)
+~$*
